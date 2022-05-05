@@ -85,7 +85,7 @@ public class ScreenSwipe : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
 	[SerializeField, Tooltip("Toggle Group to display pagination. (Optional)")]
 	private ToggleGroup pagination = null;
-	private Toggle _toggleMockPrefab = null;
+	public Toggle _toggleMockPrefab = null;
 	private List<Toggle> toggles = null;
 
 	[Header("Controls (Optional)")]
